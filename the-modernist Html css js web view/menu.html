@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <style>
+            /*=============================================
+            Menu CSS
+            ==============================================*/
+
+            .menu ul{
+                background: #290000;  
+                position: relative;
+
+            }
+            .menu li{
+                display: inline-block;
+                margin: 5px 0;
+                position: relative;
+            }
+            .menu li a {
+                display: block;
+                color: #fff;
+                padding: 5px 10px;
+            }
+            .menu li:hover > ul {
+                display: block;
+            }
+            .menu ul ul {
+                position: absolute;
+                display: none;
+                margin: 0;
+            }
+            .menu ul ul li {
+                display: block;
+            }
+            .menu ul ul ul {
+                position: absolute;
+                top: 0;
+                left: 100%;
+            }
+            .menu ul ul ul li{
+                width: 100px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container menu">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">STYLE DEMO</a></li>
+                <li><a href="">FULL WIDTH</a></li>
+                <li><a href="">DROPDOWN</a>
+                    <ul>
+                        <li><a href="">Lavel One Extra Latter</a></li>
+                        <li><a href="">Lavel One</a></li>
+                        <li><a href="">Lavel One</a>
+                            <ul>
+                                <li><a href="">Level Two</a></li>
+                                <li><a href="">Level Two</a></li>
+                                <li><a href="">Level Two</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Lavel One</a></li>
+                    </ul>
+                </li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li><a href="">GALLERY</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
