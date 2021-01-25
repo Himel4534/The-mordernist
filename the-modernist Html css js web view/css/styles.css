@@ -349,14 +349,14 @@ Content CSS ---
     color: #fff;
     font-size: 24px;
     font-weight: normal;
-    padding: 12px;
+    padding: 12px 0;
     border-radius: 10px;
     float: left;
 }
 .latest_post_heading_left, .latest_post_heading_right {
     background-color: #303030;
     height: 3px;
-	width: 36.5%;
+	width: 38%;
 	float: left;
 	margin: 20px 0 0 0;
 }
@@ -366,7 +366,7 @@ Content CSS ---
     height: auto;
     background-color: #76c38f;
     float: left;
-    /* margin-right: 3%; */
+    margin: 0 .8% 0 .8%;
     margin-bottom: 25px;
 }
 .latest_post_item_middle {
@@ -536,6 +536,10 @@ Footer CSS ---
         font-weight: normal;
         line-height: 1em;
     }
+    .slider_caption a {
+        padding: 4px 8px;
+        border-radius: 8px;
+    }
     .slider_caption p{
         padding: 8px 0;
     }
@@ -546,6 +550,22 @@ Footer CSS ---
         width: 33%;
         float: left;
     }
+    #slider_area {
+        padding: 0 0 30px 0;
+    }
+
+    .inner_content {
+        padding: 30px 0;
+    }
+    .service_item h1 {
+        font-size: 22px;
+        font-weight: normal;
+        line-height: 1em;
+    }
+    .latest_post_heading h1 {
+        font-size: 19px;
+    }
+
 	
 }
 @media screen and (max-width : 600px) {
@@ -604,5 +624,67 @@ Footer CSS ---
         border: 5px solid gray;
         border-radius: 0;
     }
+
+
+    .inner_content {
+        padding: 22px 0;
+    }
+    .service_item a {
+        width: 43%;
+        margin: 0 1.5% 0 .5%;
+        margin-bottom: 20px;
+    }
+    .service_item h1 {
+        font-size: 22px;
+        line-height: 1.5em;
+    }
+    .latest_post_heading {
+        padding: 20px 0;
+    }
+    .latest_post_heading h1 {
+        width: 40%;
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .latest_post_heading_left, .latest_post_heading_right {
+        width: 30%;
+    }
+    .latest_post_item {
+        width: 48%;
+        margin-bottom: 15px;
+    }
+    .inner_content {
+        padding-bottom: 0;
+    }
+    .child_footer_contact_form {
+        width: 93%;
+    }
+    .big_footer_area {
+        padding: 15px 0;
+    }
+    .big_footer_child {
+        width: 92%;
+        text-align: center;
+        padding: 25px 23px;
+        border-bottom: 5px solid;
+        margin-right: 0;
+    }
+    .child_footer_body p {
+        text-align: left;
+    }
+    .big_footer_child:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+    .main_footer_right {
+        float: left;
+        width: 100%;
+        padding-top: 15px;
+        clear: both;
+    }
+    .main_footer_area {
+        padding: 10px 0;
+    }
+
 
 }
